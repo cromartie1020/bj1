@@ -35,6 +35,7 @@ class Shuffle:
 #-----------------Test the class.-----------------------------------------------------         
 
 
-test = Shuffle(cards,temp,four_cards)#temp = test.select_card()
-print(test.select_card())
-print(test.four())
+#test = Shuffle(cards,temp,four_cards)
+#temp = test.select_card()
+#print(test.select_card())
+#print(test.four())
