@@ -16,29 +16,29 @@ card_suit={1:'ACE HEARTS',2:'ACE SPADES',3:'ACE DIAMONDS',4:'ACE CLUBS',\
 }   
 
 class ChooseCard:
-    def __init__(self,card_suit):
-        self.card_suit = card_suit
+    def __init__(self,card_number):
+        self.card_number = card_number
         
     def select(self):
-        if card_suit>0 and card_suit < 5:
-            card_number = 1
+        if self.card_number>0 and self.card_number < 5:
+            self.card_number = 1
             card_ace    = 11
-        if card_suit>4 and card_suit < 9:
-            card_number = 2
-        if card_suit>8 and card_suit < 13:
-            card_number = 3
-        if card_suit>12 and card_suit < 17:
-            card_number = 4
-        if card_suit> 16 and card_suit < 21:
-            card_number = 5
-        if card_suit>20 and card_suit < 25:
-            card_number = 6
-        if card_suit>24 and card_suit < 29:
-            card_number = 7
-        if card_suit>28 and card_suit < 33:
-            card_number = 8
-        if card_suit>32 and card_suit < 37:
-            card_number = 9
-        if card_suit>36 and card_suit < 53:
-            card_number = 10    
-        return card_suit, card_number                                                                            
+        if self.card_number>4 and self.card_number < 9:
+            self.card_number = 2
+        if self.card_number>8 and self.card_number < 13:
+            self.card_number = 3
+        if self.card_number>12 and self.card_number < 17:
+            self.card_number = 4
+        if self.card_number> 16 and self.card_number < 21:
+            self.card_number = 5
+        if self.card_number>20 and self.card_number < 25:
+            self.card_number = 6
+        if self.card_number>24 and self.card_number < 29:
+            self.card_number = 7
+        if self.card_number>28 and self.card_number < 33:
+            self.card_number = 8
+        if self.card_number>32 and self.card_number < 37:
+            self.card_number = 9
+        if self.card_number>36 and self.card_number < 53:
+            self.card_number = 10    
+        return self.card_number                                                                            
