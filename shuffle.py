@@ -1,6 +1,6 @@
 import os,json
 from random import choice
-os.system('cls')
+os.system('clear')
 four_cards=[]
 temp=[]
 cards=[card for card in range(1,53)]
